@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D297A14212E55580072CD06 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D297A13212E55580072CD06 /* CustomPrettyView.swift */; };
 		8DC91BC221266C8C00184E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC91BC121266C8C00184E6D /* AppDelegate.swift */; };
 		8DC91BC421266C8C00184E6D /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC91BC321266C8C00184E6D /* Controller.swift */; };
 		8DC91BC721266C8C00184E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC91BC521266C8C00184E6D /* Main.storyboard */; };
 		8DC91BC921266C8E00184E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC91BC821266C8E00184E6D /* Assets.xcassets */; };
 		8DC91BCC21266C8E00184E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC91BCA21266C8E00184E6D /* LaunchScreen.storyboard */; };
+		8DD8C840215F103D00263330 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8C83F215F103D00263330 /* AppleProduct.swift */; };
+		8DD8C842215F118800263330 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8C841215F118800263330 /* CustomPrettyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D297A13212E55580072CD06 /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomPrettyView.swift; path = "mvc-ifyme-capn/Model/CustomPrettyView.swift"; sourceTree = SOURCE_ROOT; };
 		8DC91BBE21266C8C00184E6D /* mvc-ifyme-capn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvc-ifyme-capn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC91BC121266C8C00184E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DC91BC321266C8C00184E6D /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
@@ -24,6 +24,8 @@
 		8DC91BC821266C8E00184E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DC91BCB21266C8E00184E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DC91BCD21266C8E00184E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD8C83F215F103D00263330 /* AppleProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
+		8DD8C841215F118800263330 /* CustomPrettyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		8DC91BD321266CF500184E6D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8DD8C83F215F103D00263330 /* AppleProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -78,7 +81,7 @@
 		8DC91BD421266D0200184E6D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8D297A13212E55580072CD06 /* CustomPrettyView.swift */,
+				8DD8C841215F118800263330 /* CustomPrettyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,7 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D297A14212E55580072CD06 /* CustomPrettyView.swift in Sources */,
+				8DD8C840215F103D00263330 /* AppleProduct.swift in Sources */,
+				8DD8C842215F118800263330 /* CustomPrettyView.swift in Sources */,
 				8DC91BC421266C8C00184E6D /* Controller.swift in Sources */,
 				8DC91BC221266C8C00184E6D /* AppDelegate.swift in Sources */,
 			);
