@@ -58,9 +58,9 @@
 		8DC91BC021266C8C00184E6D /* mvc-ifyme-capn */ = {
 			isa = PBXGroup;
 			children = (
-				8DC91BD521266D0A00184E6D /* Controller */,
-				8DC91BD421266D0200184E6D /* View */,
 				8DC91BD321266CF500184E6D /* Model */,
+				8DC91BD421266D0200184E6D /* View */,
+				8DC91BD521266D0A00184E6D /* Controller */,
 				8DC91BC121266C8C00184E6D /* AppDelegate.swift */,
 				8DC91BC521266C8C00184E6D /* Main.storyboard */,
 				8DC91BC821266C8E00184E6D /* Assets.xcassets */,
@@ -126,6 +126,7 @@
 				TargetAttributes = {
 					8DC91BBD21266C8C00184E6D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -321,7 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williambodily.mvc-ifyme-capn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -339,7 +340,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williambodily.mvc-ifyme-capn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
